@@ -8,7 +8,6 @@ import {
   AiOutlineUser
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import logo from "../Assets/logo.png";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -34,9 +33,6 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
