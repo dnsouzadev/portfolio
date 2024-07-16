@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import im from "../../Assets/Projects/im.png";
 import image from "../../Assets/Projects/image.png";
 import image2 from "../../Assets/Projects/image2.png";
-import image3 from "../../Assets/Projects/image3.png";
 import image4 from "../../Assets/Projects/image4.png";
 import image5 from "../../Assets/Projects/image5.png";
 import image6 from "../../Assets/Projects/image6.png";
@@ -31,11 +31,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={image3}
+              imgPath={im}
               isBlog={false}
-              title="Concessionária de Carros"
-              description="Este projeto é uma aplicação para gerenciar uma concessionária de carros, desenvolvida com django."
-              ghLink="https://github.com/dnsouzadev/concessionaria-carros"
+              title="API Restful de estacionamento"
+              description="API RESTful para gerenciamento de estacionamento, desenvolvida em
+Java utilizando Spring Boot. A segurança é garantida pelo Spring Security
+com autenticação JWT, e a documentação é realizada com Swagger."
+              ghLink="https://github.com/dnsouzadev/api-park"
             />
           </Col>
 
