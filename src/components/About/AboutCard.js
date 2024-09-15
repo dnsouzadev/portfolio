@@ -12,9 +12,9 @@ function AboutCard() {
             <br />
             Sou um estudante de Analise e Desenvolvimento de Sistema.
             <br />
-            Sou um estudante de Java e Python. Com conhecimento em frameworks como Spring e Django.
+            Sou um estudante de Java. Com conhecimento nos frameworks Spring Boot, Django e Flask.
             <br />
-            No momento atuo como freelancer em desenvolvimento web e em sistemas Python.
+            No momento atuo como freelancer em desenvolvimento web com Spring Boot e em sistemas e scrapping com Python.
             <br />
 
           </p>

@@ -20,21 +20,18 @@ function Home2() {
             <p className="home-about-body">
               Sempre fui apaixonado por tecnologia e computadores, entao… 🤷‍♂️
               <br />
-              <br />Tentando ser fluente em
-              <i>
-                <b className="purple"> Java e Python. </b>
-              </i>
+              <br />
               <br />
               <br />
               <i>
-              Meu interesse esta em  &nbsp;
+              Meu interesse esta em &nbsp;
 
                 <b className="purple">desenvolvimento backend </b> e no momento estudando {" "}
                 <b className="purple">
-                React
+                Java
                 </b>
               </i>
-              {" "} para o frontend.
+              {" "} para o backend.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
