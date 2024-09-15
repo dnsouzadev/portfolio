@@ -2,10 +2,10 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import im from "../../Assets/Projects/im.png";
 import image from "../../Assets/Projects/image.png";
-import image2 from "../../Assets/Projects/image2.png";
 import image4 from "../../Assets/Projects/image4.png";
 import image5 from "../../Assets/Projects/image5.png";
 import image6 from "../../Assets/Projects/image6.png";
+import socialnetwork from "../../Assets/Projects/socialnetwork.png";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
 
@@ -18,6 +18,17 @@ function Projects() {
           Meus projetos <strong className="purple">recentes </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={socialnetwork}
+              isBlog={false}
+              title="Social Network"
+              description="Uma aplicação de rede social desenvolvida em Java. Este projeto tem como objetivo simular funcionalidades de uma rede social, com cadastro de usuários, amizades e autenticação realizada utilizando jwt-token."
+              ghLink="https://github.com/dnsouzadev/social-network"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={image}
@@ -52,15 +63,6 @@ com autenticação JWT, e a documentação é realizada com Swagger."
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={image2}
-              isBlog={false}
-              title="Escola REST API"
-              description="A Escola REST API é uma aplicação que oferece funcionalidades através de uma API RESTful. Ela permite a comunicação entre plataformas e a reutilização de funcionalidades. Aqui estão algumas informações relevantes."
-              ghLink="https://github.com/dnsouzadev/escola-rest-api"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
