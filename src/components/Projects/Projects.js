@@ -24,8 +24,9 @@ function Projects() {
               imgPath={socialnetwork}
               isBlog={false}
               title="Social Network"
-              description="Uma aplicação de rede social desenvolvida em Java. Este projeto tem como objetivo simular funcionalidades de uma rede social, com cadastro de usuários, amizades e autenticação realizada utilizando jwt-token."
+              description="Uma aplicação de rede social desenvolvida em Java. Este projeto tem como objetivo simular funcionalidades de uma rede social, com cadastro de usuários, amizades, likes e comentarios e com uma autenticação realizada utilizando jwt-token."
               ghLink="https://github.com/dnsouzadev/social-network"
+              demoLink="https://social-network-biag.onrender.com"
             />
           </Col>
 
