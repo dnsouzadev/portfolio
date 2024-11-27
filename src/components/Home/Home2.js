@@ -30,8 +30,12 @@ function Home2() {
                 <b className="purple">
                 Java
                 </b>
-              </i>
-              {" "} para o backend.
+              {" "} para o backend e
+                <b className="purple">
+                  Angular
+                </b>
+              {" "} para o frontend.
+            </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
