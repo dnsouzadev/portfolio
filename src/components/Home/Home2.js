@@ -32,7 +32,7 @@ function Home2() {
                 </b>
               {" "} para o backend e
                 <b className="purple">
-                  Angular
+                   Angular
                 </b>
               {" "} para o frontend.
             </i>
